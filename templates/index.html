@@ -14,7 +14,7 @@
         <input type="submit" value="Shorten!" />
     </form>
     {{ if IsPositive .URL_COUNT }}
-        <p>{{ .URL_COUNT }} URLs shortened</p>
+    <p>{{ .URL_COUNT }} URLs shortened</p>
     {{ end }}
 
     <form action="/clear_cache" method="POST">
